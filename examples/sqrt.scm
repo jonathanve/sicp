@@ -6,7 +6,7 @@
   (define (improve guess)
     (average guess (/ x guess)))
   (define (good-enough? guess)
-    (< (/ (abs(- (square guess) x)) x)
+    (< (/ (abs (- (square guess) x)) x)
        0.00001))
   (define (try guess)
     (if (good-enough? guess)
