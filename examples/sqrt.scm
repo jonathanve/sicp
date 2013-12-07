@@ -1,6 +1,3 @@
-; Pythagorean triple (3,4,5)
-(sqrt (+ (square 3) (square 4)))
-
 ; sqrt(x) fixed point of function f(x,y) = x/y
 (define (sqrt x)
   (define (improve guess)
@@ -27,3 +24,6 @@
 ; average definition
 (define (average x y)
   (/ (+ x y) 2))
+
+; Pythagorean triple (3,4,5)
+(sqrt (+ (square 3) (square 4)))
