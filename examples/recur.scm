@@ -9,12 +9,12 @@
 ; tower of hanoi
 (define (move n from to spare)
   (cond
-  	((= n 0) "no moves")
-	((= n 1) (print-move from to))
-	(else
-	  (move (- n 1) from spare to)
-	  (move 1 from to spare)
-	  (move (- n 1) spare to from))))
+   ((= n 0) "no moves")
+   ((= n 1) (print-move from to))
+   (else
+    (move (- n 1) from spare to)
+    (move 1 from to spare)
+    (move (- n 1) spare to from))))
 
 ; print move helper definition
 (define (print-move from to)
