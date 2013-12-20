@@ -3,7 +3,7 @@
   (define (improve guess)
     (average guess (/ x guess)))
   (define (good-enough? guess)
-    (< (/ (abs (- (square ) x)) x)
+    (< (/ (abs (- (square guess) x)) x)
        0.00001))
   (define (try guess)
     (if (good-enough? guess)
@@ -24,6 +24,9 @@
 ; average definition
 (define (average x y)
   (/ (+ x y) 2))
+
+; 11
+(sqrt 121)
 
 ; Pythagorean triple (3,4,5)
 (sqrt (+ (square 3) (square 4)))
