@@ -1,5 +1,11 @@
 ; utilities procedures
 
+; newton-method(f(x,y)) where f(x,y) = x - y^2
+(define (sqrt x)
+  (newton
+   (lambda(y) (- x (square y)))
+   1.0))
+
 ; y(n+1) = yn - f(yn)/(df/dy)(yn)
 (define (newton func guess)
   (define df (deriv func))
