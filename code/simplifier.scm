@@ -1,6 +1,5 @@
 ; Rajiv M Ranganath's implementation
 ; http://rajiv.sg/blog/2012/07/01/sicp-pattern-matching-and-rule-based-substitution-lecture-with-mit-scheme/
-; 
 
 ; atom? is not in a pair or null (empty)
 (define (atom? x)
