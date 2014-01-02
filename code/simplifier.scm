@@ -187,8 +187,7 @@
 
 ;; deriv definition
 
-(define (deriv exp)
-  (asimp (dsimp exp)))
+(define (deriv exp) (asimp (dsimp exp)))
 
 ;; Usage
 
