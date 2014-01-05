@@ -141,3 +141,11 @@
 (-c z3 z4)
 (*c z3 z4)
 (/c z3 z4)
+
+; now, they way of how complex numbers are created and implemented
+; is independent of usage (awesome!)
+; rectangular and polar 
+(+c z1 z3)
+(-c z1 z3)
+(*c z1 z3)
+(/c z1 z3)
