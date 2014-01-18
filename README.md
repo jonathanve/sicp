@@ -7,5 +7,5 @@ Just having fun learning!
 
 Note
 ===
-code directory contains code from SICP book
-[SICP BOOKCODE](http://mitpress.mit.edu/sicp/code/)
+'code' directory contains code from SICP book
+[SICP CODE](http://mitpress.mit.edu/sicp/code/)
