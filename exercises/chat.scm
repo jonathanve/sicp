@@ -80,7 +80,7 @@
 (set-name! son 'hijo)
 (get-name son)
 
-; Simple Chat (¡Bácano!)
+; Simple Chat (Awesome!)
 (send-message 'hola-soy-julieta julieth israel)
 (send-message 'hola-soy-israel israel julieth)
 (send-message 'hola-hijo-tu-padre israel son)
